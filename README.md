@@ -1,1 +1,2 @@
-# infographic-item
+# Infographic Item
+

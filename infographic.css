@@ -49,6 +49,11 @@
 /* Large devices (desktops, 992px and up) */
 
 @media screen and (min-width: 992px) and (max-width: 1199.99px) {
+
+    .imageInfographic .infographic {
+        height: 400px;
+    }
+    
     .imageInfographic .infographicMedia img {
         max-height: 200px;
     }

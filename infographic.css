@@ -87,28 +87,3 @@
     font-size: 18px;
     }
 
-
-
-
-
-
-
-
-
-
-
-.infographicWrapper.card .infographicItemHeader img.card-img {
-  padding: 1rem;
-  margin: 1rem;
-}
-
-div.gridOrganizerWrapper div.gridOrganizer.standardContent {
-    justify-content: start;
-    flex-flow: unset;
-    flex-direction: row;
-    gap: 1rem;
-}
-
-div.gridOrganizerWrapper .gridOrganizer.standardContent.card-deck > * + * {
-    margin-left: 1rem;
-}

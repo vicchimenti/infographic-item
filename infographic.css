@@ -1,6 +1,4 @@
-
-
-.infographic {
+.imageInfographic .infographic {
     height: 400px;
 }
 
@@ -33,11 +31,6 @@
     line-height: 1.5;
 }
 
-.infographicTitle h2::after {
-    content: "test /a test"
-    white-space: pre;
-}
-
 /* Large devices (desktops, 992px and up) */
 
 @media screen and (min-width: 992px) and (max-width: 1199.99px) {
@@ -48,9 +41,7 @@
 
 
 
-.imageInfographic .infographic{
-    height: 400px;
-    }
+
     .infographicTitle h2::after{
     content: "\a Seattle U continues to base our decisions and policies on the latest public health guidance. We ask that you comply with the following requirements as directed.";
     white-space: pre-wrap;

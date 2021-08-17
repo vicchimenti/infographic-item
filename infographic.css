@@ -29,6 +29,65 @@
 
 
 
+.infographic {
+    height: 400px;
+}
+
+.imageInfographic .imageInfographicMid {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.imageInfographic .infographicItemHeader {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.imageInfographic p.modifiedDate {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.imageInfographic .infographicMedia img {
+    height: 150px;
+    width: 150px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.imageInfographic .infographicItemText.standardContent {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.infographicTitle h2::after {
+    content: "test /a test"
+    white-space: pre;
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media screen and (min-width: 992px) and (max-width: 1199.99px) {
+    .imageInfographic .infographicMedia img {
+        max-height: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .infographicWrapper.card .infographicItemHeader img.card-img {
   padding: 1rem;

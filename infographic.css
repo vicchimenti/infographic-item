@@ -12,6 +12,13 @@
     width: -webkit-fill-available;
 }
 
+.infographicItemText.standardContent {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+
 
 
 .infographicWrapper.card .infographicItemHeader img.card-img {

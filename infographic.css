@@ -5,6 +5,11 @@
     width: -webkit-fill-available;
 }
 
+.infographicItemHeader {
+    min-height: 100px;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
 
 .infographicWrapper.card .infographicItemHeader img.card-img {
   padding: 1rem;

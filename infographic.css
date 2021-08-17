@@ -1,5 +1,6 @@
 .imageInfographic .infographic {
-    height: 400px;
+    height: 375px;
+    margin-bottom: 1rem;
 }
 
 .imageInfographic .imageInfographicMid {
@@ -42,10 +43,10 @@
 
 
 
-    .infographicTitle h2::after{
+.infographicTitle h2::after {
     content: "\a Seattle U continues to base our decisions and policies on the latest public health guidance. We ask that you comply with the following requirements as directed.";
     white-space: pre-wrap;
     color:black;
     font-size: 18px;
-    }
+}
 

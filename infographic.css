@@ -43,8 +43,9 @@ padding: 15px 0px;
 
 .imageInfographic .infoGraphicDisclaimer {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 500;
+    padding-bottom: 1rem;
 }
 
 /* Large devices (desktops, 992px and up) */

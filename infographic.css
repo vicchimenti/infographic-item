@@ -2,7 +2,12 @@
     height: 375px;
     margin-bottom: 1rem;
 }
-
+.imageInfographic p.modifiedDate{
+text-align: center;
+}
+.infographicTitle h2{
+padding: 15px 0px;
+}
 .imageInfographic .imageInfographicMid {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -55,4 +60,3 @@
     color:black;
     font-size: 18px;
 } */
-

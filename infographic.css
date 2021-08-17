@@ -11,11 +11,6 @@
     padding: 15px 0px;
 }
 
-.imageInfographic .imageInfographicMid {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
 .imageInfographic .infographicItemHeader {
     padding-bottom: 1rem;
     margin-bottom: 1rem;
@@ -56,5 +51,15 @@
 @media screen and (min-width: 992px) and (max-width: 1199.99px) {
     .imageInfographic .infographicMedia img {
         max-height: 200px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media screen and (min-width: 992px) {
+    .imageInfographic .imageInfographicMid {
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 }

@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-.infographicTitle h2 {
+.imageInfographic .infographicTitle h2 {
     padding: 15px 0px;
 }
 
@@ -56,10 +56,24 @@
 
 
 /* Large devices (desktops, 992px and up) */
-
 @media screen and (min-width: 992px) {
+    
     .imageInfographic .imageInfographicMid {
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+}
+
+/* Mobile, tablets (below 992px) */
+@media screen and (max-width: 991.99px) {
+
+    .infographicWrapper.imageInfographic {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .imageInfographic .infographicTitle h2 {
+        margin-top: 0;
+        padding-top: 0;
     }
 }

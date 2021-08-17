@@ -1,15 +1,18 @@
-.infographicItemHeader img {
-    max-height: 300px;
-    margin: 1rem;
-    padding: 1rem;
-    width: -webkit-fill-available;
-}
-
 .infographicItemHeader {
     min-height: 100px;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
 }
+
+
+.infographicImage img {
+    max-height: 275px;
+    margin: 1rem;
+    padding: 1rem;
+    width: -webkit-fill-available;
+}
+
+
 
 .infographicWrapper.card .infographicItemHeader img.card-img {
   padding: 1rem;

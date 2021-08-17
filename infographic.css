@@ -1,0 +1,23 @@
+.infographicItemHeader img {
+    max-height: 300px;
+    margin: 1rem;
+    padding: 1rem;
+    width: -webkit-fill-available;
+}
+
+
+.infographicWrapper.card .infographicItemHeader img.card-img {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+div.gridOrganizerWrapper div.gridOrganizer.standardContent {
+    justify-content: start;
+    flex-flow: unset;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+div.gridOrganizerWrapper .gridOrganizer.standardContent.card-deck > * + * {
+    margin-left: 1rem;
+}

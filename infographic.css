@@ -57,7 +57,7 @@
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    
+
     .imageInfographic .imageInfographicMid {
         margin-left: 1rem;
         margin-right: 1rem;
@@ -75,5 +75,14 @@
     .imageInfographic .infographicTitle h2 {
         margin-top: 0;
         padding-top: 0;
+    }
+
+    .imageInfographic .imageInfographicMid {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .imageInfographic .infographic {
+        display: block;
     }
 }
